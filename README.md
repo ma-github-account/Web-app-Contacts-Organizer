@@ -17,8 +17,9 @@ How to run: python manage.py runserver
 
 
 
+![2](https://user-images.githubusercontent.com/89083426/198855816-f877042a-d7fb-44c1-887e-82fdb5ce6e5b.png)
 
-![2](https://user-images.githubusercontent.com/89083426/198855442-ac51c9a1-3151-4be4-a5e3-b8d5b846acf4.png)
+
 
 
 
