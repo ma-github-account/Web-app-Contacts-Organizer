@@ -1,0 +1,69 @@
+{% extends "organizer/base.html" %}
+{% load static %}
+
+{% block content %}
+	<div id="main" class="contact-list">
+		<h1>Contacts</h1>
+
+		<table>
+			<tr>
+			  <th>First name</th>
+			  <th>Last name</th>
+			  <th>Link to details</th>
+			</tr>
+
+			{% for contact in contacts %}
+
+			<tr>
+				<td>{{ contact.fname }}</td>
+				<td>{{ contact.lname }}</td>
+				<td><a href="{{ contact.get_absolute_url }}">Contact details</a></td>
+			</tr>
+
+			{% endfor %}
+
+		</table>
+
+		<br>
+
+        <a href="add/">Add new contact</a>
+	</div>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

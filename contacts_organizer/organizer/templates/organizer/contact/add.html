@@ -1,0 +1,31 @@
+{% extends "organizer/base.html" %}
+{% load static %}
+
+{% block title %}
+	Add contact
+{% endblock %}
+
+{% block content %}
+	<h3>Fill the form to add new contact</h3>
+	<hr>
+	
+	<form action="" method="post">
+		{% csrf_token %}
+		{{form}}
+		<input type="submit">
+		
+	</form>
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
