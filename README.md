@@ -5,7 +5,10 @@ Prerequisites:
 - Python 3.9.7
 - Django 4.1.2
 
-How to run: python manage.py runserver
+How to run:
+1.python manage.py makemigrations
+2.python manage.py migrate
+3.python manage.py runserver
 
 
 
